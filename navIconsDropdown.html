@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----===== Boxicons CSS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Home section</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .popover-div {
+        text-align: center;
+        padding: 10px;
+      }
+      .head-tag {
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .popover-Btn-signIn {
+        font-size: 14px;
+        width: 200px;
+        background-color: #f7941d;
+        text-align: center;
+        color: white;
+        height: 30px;
+        padding-bottom: 5px;
+        border-radius: 3px;
+        border: white solid 0.5px;
+        cursor: pointer;
+      }
+      .popover-Btn-join {
+        font-size: 14px;
+        width: 200px;
+        color: #f7941d;
+        text-align: center;
+        background-color: white;
+        height: 30px;
+        border-radius: 3px;
+        border: #f7941d solid 0.5px;
+        cursor: pointer;
+        margin-top: 5px;
+      }
+      .continue-tag {
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: gray;
+      }
+      .agreement-tag{
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: gray;
+      }
+      .footList {
+        font-size: 20px;
+        text-align: center;
+        list-style: none;
+        padding-left: 0px;
+      }
+      .img-google-tag {
+        width: 17px;
+        margin-bottom: 5px;
+      }
+      .footList li a {
+        padding: 5px;
+      }
+      .nav-items-ul{
+        list-style: none;
+        text-align: left;
+        padding-left: 0px;
+      }
+      .nav-items-ul li{
+          padding: 5px;
+      }
+      .nav-items-ul li a{
+        text-style : none;
+        color: Black;
+    }
+    .order-ul-tag{
+        text-align: left;
+        padding-left: 20px;
+    }
+   
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="#"
+              data-toggle="popover"
+              data-trigger="click"
+              data-content="<div class='popover-div' ><p class='head-tag'> Welcome back! </p>
+                <button class='popover-Btn-signIn' onclick='location.href='#';'> Sign In</button>
+                <button class='popover-Btn-join' onclick='location.href='#';'> Join Free</button>
+                <p class='continue-tag'> Continue with : </p>
+                <ul class='footList'>
+                    <li>
+                      <a href='https://twitter.com'
+                        ><i class='fab fa-twitter fa-x text-info' title='Twitter'></i
+                      ></a>
+                      <a href='https://facebook.com'
+                        ><i
+                          class='fab fa-facebook-square ps-3 fa-x cl-facebook'
+                          title='Facebook'
+                        ></i
+                      ></a>
+                      <a href='https://linkedin.com'
+                        ><i class='fab fa-linkedin fa-x cl-linkedin' title='Linkedin'></i
+                      ></a>
+                      <a href='https://google.com'
+                        ><img class='img-google-tag' src='  https://www.tribecasmiles.com/wp-content/uploads/2020/03/google_icon.png'></a>
+                     
+                    </li>
+                </ul>
+                <p class='agreement-tag'>By sliding to Continue with or Create My Account , I agree to <a href='#'> B2Bfirstchoice.com Free Membership Agreement </a> and <a href='#'> Receive Marketing Materials </a></p>
+                <hr>
+
+                <ul class='nav-items-ul'>
+                    <li> <a href='#'><strong>  My B2Bfirstchoice </strong> </a> </li>
+                    <li> <a href='#'> Manage RFQ </a> </li>
+                    <li> <a href='#'> Orders </a> </li>
+                    <li> <a href='#'> Favorites </a> </li>
+                    <li> <a href='#'> Account </a> </li>
+                </ul>
+                <hr>
+                <ul class='nav-items-ul'>
+                    <li> <a href='#'>Submit RFQ </a> </li>
+                    
+                </ul>
+                
+                            
+             </div>"
+              data-html="true"
+            >
+              My Account</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              data-toggle="popover"
+              data-trigger="click"
+              data-content="<div class='popover-div'>
+                  <p class='head-tag'>Do not miss messages ! </p>
+                  <p class='continue-tag'>Please Login to view all messages </p>
+                <button class='popover-Btn-signIn' onclick='location.href='#';'> Sign In</button>
+                             
+             </div>"
+              data-html="true"
+            >
+              Messages</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+            class="nav-link"
+            href="#"
+            data-toggle="popover"
+            data-trigger="click"
+            data-content="<div class='popover-div'>
+                <div class='row'>
+                <p class='head-tag' style='margin-left: 10px;'>Trade Assurance </p> 
+                <span> <a href='#' style='margin-left: 40px;'> Learn more </a></span>
+                </div>
+                <p class='continue-tag'>protect your B2Bfirstchoice.com orders </p>
+                <hr>
+                <p style='text-align: left;'> Trade Assurance ensures:  </p>
+                <ul class='order-ul-tag'>
+                    <li>Product quality </li>
+                    <li>On-time shipment </li>
+                </ul>
+
+              <button class='popover-Btn-signIn' onclick='location.href='#';'> Order with Trade Assurance</button>
+                           
+           </div>"
+            data-html="true"
+          >
+            Orders</a
+          >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+  </body>
+</html>
